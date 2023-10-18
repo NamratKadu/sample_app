@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="src.main.java. Dem.tringle.myListeners.MyListener"/>
+	</listeners>
+	
+  <test name="regression tests">
+	  <parameter name="browser-name" value="Chrome"></parameter>
+    <classes>
+      
+<class name=" demoTestBase.TestBase"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

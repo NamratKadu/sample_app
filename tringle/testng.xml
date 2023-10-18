@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="rollNo" value="23"></parameter>
+	<parameter name="Name" value="Namrata"></parameter>
+	
+  <test thread-count="5" name="Test">
+	  <parameter name="browser-name" value="Chrome"></parameter>
+    <classes>
+      
+<class name="com.testingshastra.regression.paginationReloadpage"/>
+<class name="com.testingshastra.regression.ATest"/>
+<class name="com.testingshastra.regression.BTest"/>
+<class name="com.testingshastra.regression.AnnotationOfTestng"/>
+<class name="com.testingshastra.regression.DemoTestcase"/>
+<class name="com.testingshastra.regression.handelingPaginationDemo"/>
+<class name="com.testingshastra.regression.paginationHandling"/>
+<class name="com.testingshastra.regression.SearchComponentTests"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

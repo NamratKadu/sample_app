@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="browser-name" value="Chrome"/>
+    <classes>
+      <class name="com.testingshastra.regression.AnnotationOfTestng">
+        <methods>
+          <include name="m5"/>
+          <include name="m6"/>
+        </methods>
+      </class> <!-- com.testingshastra.regression.AnnotationOfTestng -->
+      <class name="com.testingshastra.regression.SearchComponentTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifySearchResultsArePopulatingCorrectResultsMenSneakers"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testingshastra.regression.SearchComponentTests -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
